@@ -8,7 +8,7 @@ export default function Home() {
       <LandingPage />
       <footer className="py-6 text-center text-sm text-muted-foreground border-t border-border">
         <p className="mb-2">MindGuard is a wellness support tool and does not replace professional mental health care.</p>
-        <p>WellSpring by MindGuard AI. Your privacy is our priority.</p>
+        <p>MindScape by MindGuard AI. Your privacy is our priority.</p>
       </footer>
     </div>
   );

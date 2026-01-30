@@ -10,7 +10,7 @@ export function AppHeader() {
           <Link href="/" className="flex items-center gap-3">
               <Sprout className="h-7 w-7 text-primary" />
               <h1 className="text-2xl font-bold font-headline text-foreground">
-              WellSpring
+              MindScape
               </h1>
           </Link>
           <nav className="hidden md:flex items-center gap-2">
