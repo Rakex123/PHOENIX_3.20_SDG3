@@ -10,6 +10,9 @@ export function LandingPage() {
       {/* 1. Hero Section */}
       <section id="hero" className="text-center py-20 md:py-32 bg-card/50">
         <div className="container">
+          <div className="flex justify-center mb-8">
+            <Bot className="h-20 w-20 text-primary" />
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight">
             Listen Before the Silence.
           </h1>
