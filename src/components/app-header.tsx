@@ -1,4 +1,4 @@
-import { Sprout } from 'lucide-react';
+import { Bot } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
@@ -8,7 +8,7 @@ export function AppHeader() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-3">
-              <Sprout className="h-7 w-7 text-primary" />
+              <Bot className="h-7 w-7 text-primary" />
               <h1 className="text-2xl font-bold font-headline text-foreground">
               MindScape
               </h1>
