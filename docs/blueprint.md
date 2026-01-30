@@ -1,21 +1,20 @@
-# **App Name**: WellSpring
+# **App Name**: Mood Mapper
 
 ## Core Features:
 
-- Journal Entry: Allow students to create daily journal entries via text input.
-- Sentiment Analysis: Analyze journal entry for overall sentiment: positive, negative, or neutral.
-- Emotion Detection: Detect dominant emotions expressed: sadness, anxiety, stress, anger, loneliness, hope. The tool will also analyze indicators of distress or hopelessness (low, medium, high).
-- Risk Scoring: Assign a Wellness Risk Score (0-100) based on sentiment and emotion analysis, with associated risk levels (Emotionally stable, Mild distress, High distress, Critical distress).
-- Personalized Response Generation: Generate a calm, empathetic, and supportive response to the student, encouraging healthy coping strategies without diagnosing or validating harmful thoughts. The LLM tool will not respond to requests outside the bounds of the allowed data, and only to journal data from the specific user.
-- Resource Recommendations: Provide access to resources and trusted support networks like school counselors when a high risk level is detected, while avoiding alarming tones.
-- Data persistence: Allow to save user data in Firestore database.
+- Themed Diary Entry: Users can create diary entries with a personalized theme (pink, blue, white, black) applied.
+- Realtime Notepad Functionality: A live notepad interface where users can freely write and save their thoughts.
+- Sentiment Analysis: Leverage a sentiment analysis tool to calculate the average sentiment score of each diary entry.
+- Gamified Engagement: Implement achievement badges for frequent and insightful entries.
+- Historical Data Tracking: Provide users with a historical graph of their sentiment scores over time.
+- AI Chat: Face chat with AI that responds based on age and questions.
 
 ## Style Guidelines:
 
-- Primary color: Gentle sky blue (#87CEEB), fostering calmness and tranquility.
-- Background color: Very light grayish-blue (#F0F8FF) creating a soft, supportive atmosphere.
-- Accent color: Soft lavender (#E6E6FA), complementing blue to inspire balance and reflection.
-- Font: 'PT Sans', a humanist sans-serif that balances a modern aesthetic with an inviting feel; good for both headlines and body.
-- Use gentle, supportive icons representing emotions (e.g., calm wave for peace, sprouting seed for growth), conveying visual reassurance.
-- Use a clean, minimalist layout with generous white space, promoting clarity and emotional openness.
-- Incorporate subtle transitions and animations to avoid abruptness and create a nurturing user experience.
+- Primary color: Soft coral (#F08080) for a warm and inviting feel.
+- Background color: Pale peach (#FFE5B4) as a gentle backdrop.
+- Accent color: Light gold (#FFD700) for highlights and interactive elements.
+- Body and headline font: 'Alegreya', a humanist serif with an elegant, intellectual, contemporary feel.
+- Use custom-designed icons related to emotional states, diary entries, and user achievements.
+- Subtle animations on data updates, new entries, and achievement unlocks.
+- Use different diary layout for each theme .so user have unique feeling.

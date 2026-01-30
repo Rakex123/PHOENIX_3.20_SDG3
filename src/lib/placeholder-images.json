@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "pink-diary-theme",
+      "description": "Soft pink cherry blossoms.",
+      "imageUrl": "https://images.unsplash.com/photo-1565573349860-cbf26ef3f40f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwaW5rJTIwZmxvd2VyfGVufDB8fHx8MTc2OTczMDQ5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pink flower"
+    },
+    {
+      "id": "blue-diary-theme",
+      "description": "Calm blue ocean waves.",
+      "imageUrl": "https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjYWxtJTIwb2NlYW58ZW58MHx8fHwxNzY5Nzk2MDM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calm ocean"
+    },
+    {
+      "id": "white-diary-theme",
+      "description": "A minimalist white fabric texture.",
+      "imageUrl": "https://images.unsplash.com/photo-1615800098779-1be32e60cca3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3aGl0ZSUyMHRleHR1cmV8ZW58MHx8fHwxNzY5Nzk5Njc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "white texture"
+    },
+    {
+      "id": "black-diary-theme",
+      "description": "A starry night sky.",
+      "imageUrl": "https://images.unsplash.com/photo-1516571748831-5d81767b788d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxuaWdodCUyMHNreXxlbnwwfHx8fDE3Njk3OTMzMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "night sky"
+    }
+  ]
 }
