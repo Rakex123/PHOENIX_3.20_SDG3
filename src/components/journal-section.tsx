@@ -1,12 +1,12 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useFormStatus } from 'react-dom';
 import { Loader2, Send } from 'lucide-react';
 import { handleJournalSubmission } from '@/app/actions';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { AnalysisDisplay } from './analysis-display';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useActionState } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import type { AnalyzeJournalEntryOutput } from '@/ai/flows/analyze-journal-entry-and-generate-response';
 import { Card, CardContent } from '@/components/ui/card';
@@ -41,7 +41,7 @@ function SubmitButton() {
 }
 
 export function JournalSection() {
-  const [state, formAction] = useFormState(handleJournalSubmission, initialState);
+  const [state, formAction] = useActionState(handleJournalSubmission, initialState);
   const { toast } = useToast();
   const formRef = useRef<HTMLFormElement>(null);
 
